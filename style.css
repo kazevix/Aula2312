@@ -1,0 +1,76 @@
+* {
+  box-sizing: content-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(15, 15, 15);
+}
+
+body {
+  display: grid;  
+  background-color: rgb(91, 121, 187);
+}
+
+#carrinho {
+  display: flex;
+ 
+ 
+}
+
+.item-carrinho {
+  background-color: rgb(51, 165, 159);
+  margin-right: 2rem;
+  padding: 1rem 1.5rem;
+  width: 300px;
+  border-radius: 8px;
+  
+}
+
+.capa {
+  width: 80px;
+  height: 100px;
+  background-color: rgb(238, 225, 225);
+  position: relative;
+  border-style:double;
+  border-color: brown;
+}
+
+img{
+  width: 80px;
+  height: 100px;
+
+}
+
+.capa::after {
+  content: "Capa";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+input {
+  width: 40px;
+  text-align: center;
+  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#subtotal {
+  font-size: 1.2rem;
+
+}
+
+.resumo{
+  text-align: middle;
+  font-size: large;
+  
+}
+
+h2{
+  background-color: rgb(213, 231, 202);
+}
+
